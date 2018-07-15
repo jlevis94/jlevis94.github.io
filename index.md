@@ -1,37 +1,231 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jlevis94/jlevis94.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+<title> circostanza records </title>
+<style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+{
+margin: 0;
+padding: 0;
+}
 
-### Markdown
+header
+{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(reportage-1.jpg.jpg);
+height: 100vh;
+background-size: cover;
+background-position:center;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.main-nav
+{
+float:right;
+list-style:none;
+margin-top:30px;
+}
 
-```markdown
-Syntax highlighted code block
+.main-nav li
+{
+display: inline-block;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.main-nav li a
+{
+color: white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Roboto", sans-serif;
+font-size:15px;
+}
 
-- Bulleted
-- List
+.main-nav li.active a
+{
+border: 1px solid white;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
 
-1. Numbered
-2. List
+.circo
+{
+position:absolute;
+width:1200px;
+margin-left:0px;
+margin-top:0px;
+}
 
-**Bold** and _Italic_ and `Code` text
+h1
+{
+color:white;
+text-transform:uppercase;
+font-size:50px;
+text-align:center;
+margin-top:275px;
+}
 
-[Link](url) and ![Image](src)
-```
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="row">
+<ul class="main-nav">
+<li class="active"><a href=""> HOME </a></li>
+<li><a href="galleria.html"> GALLERY </a></li>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</ul>
+</nav>
+</div>
 
-### Jekyll Themes
+<div class="circo">
+<h1>CIRCOSTANZA RECORDS</h1>
+</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jlevis94/jlevis94.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</body>
+ 
+</html>
 
-### Support or Contact
+<html>
+<head>
+<title> circostanza records </title>
+<style>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+{
+margin: 0;
+padding: 0;
+}
+
+header
+{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(reportage-1.jpg.jpg);
+height: 100vh;
+background-size: cover;
+background-position:center;
+}
+
+.main-nav
+{
+float:right;
+list-style:none;
+margin-top:30px;
+}
+
+.main-nav li
+{
+display: inline-block;
+}
+
+.main-nav li a
+{
+color: white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Roboto", sans-serif;
+font-size:15px;
+}
+
+.main-nav li.active a
+{
+border: 1px solid white;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+
+.circo
+{
+position:absolute;
+width:1200px;
+margin-left:0px;
+margin-top:0px;
+}
+
+h1
+{
+color:white;
+text-transform:uppercase;
+font-size:50px;
+text-align:center;
+margin-top:275px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+background:darkorange;
+overflow:auto;
+}
+.gallery{
+margin:5px;
+border:1px solid #ccc;
+float:left;
+width:390px;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+}
+
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="row">
+<ul class="main-nav">
+<li><a href="index.html"> HOME </a></li>
+<li class="active"><a href=""> GALLERY </a></li>
+
+
+</ul>
+</nav>
+
+<div class="container">
+   
+
+<div class="gallery">
+<img src="reportage-2.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-15.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-3.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-4.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-5.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-6.jpg">
+</div>
+
+<div class="gallery">
+ <img src="reportage-7.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-8.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-9.jpg">
+</div>
+
+<div class="gallery">
+<img src="reportage-10.jpg">
+</div>
+
+</body>
+ 
+</html>
